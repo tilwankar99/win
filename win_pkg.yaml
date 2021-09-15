@@ -4,5 +4,7 @@
     - name: install package by win_package
       win_package:
         path: "C:\\Downloads\NTLite_setup_x64.exe"
+        creates_path: C:\Program Files\NTLite\NTLite.exe
+        creates_version: 1.4.9.3
         state: present
    
