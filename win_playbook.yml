@@ -1,10 +1,10 @@
 - hosts: all
   gather_facts: no
   tasks:
-- name: Install firefox
-  win_chocolatey:
-    name: firefox
-    state: present
+  - name: Install firefox
+    win_chocolatey:
+      name: firefox
+      state: present
   - name: Hello Message
     debug:
        msg: "Hello World!"
