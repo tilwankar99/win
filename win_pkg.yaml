@@ -4,6 +4,7 @@
     - name: install package by win_package
       win_package:
         path: "https://www.nliteos.com/download/nLite-1.4.9.3.setup.exe"
+        product_id: "{}"
         state: present
         arguments: '/install /norestart'
    
