@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name: install package by win_package
+      win_package:
+        path: C:\\Downloads\\nLite-1.4.9.3.setup.exe
+        state: present
+        arguments: '/install /norestart'
+   
