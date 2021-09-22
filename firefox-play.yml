@@ -3,7 +3,7 @@
   tasks:
   - name: win_package install firefox
     win_package:
-      path: https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/18d0060d42358b18cd27d6b15a33538ed1ea97853032d84b9990d4383ebbd8f7/Firefox%20Installer.exe
+      path: C:\Users\ansible\Downloads\Firefox%20Installer.exe
       product_id: 'Mozilla Firefox'
       state: present
-      arguments: '-ms /INI=C:\Temp\firefox\mInstall.ini'
+      arguments: /install /passive /norestart
