@@ -1,8 +1,9 @@
 - hosts: all
   gather_facts: no
   tasks:
-  - name: Install firefox for windows
+  - name: Install package for windows
     win_chocolatey:
-      name: firefox
-      state: latest
+      name: notepadplusplus
+      version: '6.6'
+      
   
