@@ -3,7 +3,8 @@
   tasks:
   - name: Install package for windows
     win_chocolatey:
-      name: firefox
+      name: python
+      version: 3.6
       state: present
       
   
