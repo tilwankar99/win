@@ -3,8 +3,7 @@
   tasks:
   - name: Install package for windows
     win_chocolatey:
-      name: notepadplusplus
-      version: '6.6'
+      name: putty
       state: present
       
   
