@@ -4,5 +4,5 @@
   - name: Install firefox for windows
     win_chocolatey:
       name: firefox
-      state: present
+      state: latest
   
